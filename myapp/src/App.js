@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Devs from './Devs';
+
+import SignUp from './components/sign-up/sign-up';
+import SignIn from './components/sign-in/sign-in';
+
 class App extends React.Component {
   
   render() {
     return(
       <div className='App'>
-        <h1>My first React App!</h1>
-        <Devs name="Adam" age="21" skill="react"/>
-        <Devs name="Aliyat" age="16" skill="Python"/>
+        <h1>CHATSCRUM</h1>
+        <SignUp />
+        <SignIn />
       </div>
     )
   }
